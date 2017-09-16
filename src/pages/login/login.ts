@@ -22,7 +22,7 @@ export class LoginPage {
   }
 
   segueToMTabs() {
-    this.navCtrl.push(MainTabsPage)
+    this.navCtrl.push(MainTabsPage);
   }
 
 }

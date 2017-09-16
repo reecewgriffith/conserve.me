@@ -13,11 +13,27 @@
 </ion-header>
 
 
-<ion-content padding>
-  <h2 style="text-align:center">Login</h2>
-  <img style="text-align:center" src="../../assets/images/earth.gif">
+<ion-content text-center padding>
+  <h2 style="color:white; text-align:center">Login</h2>
+
+  <img style="align:center; width:60%" src="../../assets/images/whtTree.png">
   <br>
   <br>
-  <button ion-button round full (click)="segueToMTabs()">Login</button>
-  <button ion-button round full (click)="segueToMTabs()">Register</button>
+  <ion-list>
+    
+      <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input [(ngModel)]="username" type="text" value=""></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input [(ngModel)]="password"  type="password" value=""></ion-input>
+      </ion-item>
+    
+    </ion-list>
+    
+    <button ion-button round full (click)="segueToMTabs()"><ion-icon name="log-in"></ion-icon>&nbsp;Login</button>
+    <button ion-button round full (click)="segueToMTabs()"><ion-icon name="person-add"></ion-icon>&nbsp;Register</button>  
+  
 </ion-content>

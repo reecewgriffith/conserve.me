@@ -6,7 +6,7 @@
 -->
 <ion-header>
     <ion-navbar>
-      <ion-title>
+      <ion-title style="text-align:right;">
         Settings
       </ion-title>
     </ion-navbar>
@@ -27,7 +27,9 @@
       <h2>Leo Dicaprio</h2>
       <p>Save the world!</p>
     </ion-item>
+       
   </ion-list>
+  <button ion-button full><ion-icon name="create"></ion-icon>&nbsp;Edit</button> 
 
   <ion-list>
 
@@ -81,6 +83,7 @@
     </ion-item>
 
   </ion-list>
-  
+
+  <button ion-button full (click)="logout()"><ion-icon name="power"></ion-icon>&nbsp;Logout</button>
 
 </ion-content>
