@@ -14,12 +14,18 @@ import { MainTabsPage } from '../main-tabs/main-tabs';
 })
 export class LoginPage {
 
+  splash = true;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LoginPage');
-  }
+    
+       setTimeout(() => {
+        this.splash = false;
+       }, 4000);
+    
+     }
 
   segueToMTabs() {
     this.navCtrl.push(MainTabsPage);
