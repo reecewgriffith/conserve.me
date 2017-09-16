@@ -11,6 +11,7 @@ import { MainTabsPage } from '../pages/main-tabs/main-tabs';
 import { ChartsPage } from '../pages/charts/charts';
 import { SettingsPage } from '../pages/settings/settings';
 import { LoginPage } from '../pages/login/login';
+import { RegisterPage } from '../pages/register/register';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LoginPage } from '../pages/login/login';
     MainTabsPage,
     ChartsPage,
     SettingsPage,
-    LoginPage
+    LoginPage,
+    RegisterPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { LoginPage } from '../pages/login/login';
     MainTabsPage,
     ChartsPage,
     SettingsPage,
-    LoginPage
+    LoginPage,
+    RegisterPage
   ],
   providers: [
     StatusBar,
