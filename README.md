@@ -1,6 +1,14 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Conserve.me
+- Front-end in ionic
+- Laravel Back-end
+- Done for the 2017 Fall Hophacks
 
-## How to use this template
+## Team
+- @amrojas
+- @cjmoncaliona
+- @reecewgriffith
+
+## How to use Ionic
 
 *This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
