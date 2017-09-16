@@ -19,8 +19,18 @@
   <img style="text-align:center" src="../../assets/images/earth.gif">
   <br>
   <br>
-  <button ion-button style="width:100%"><ion-icon name="flask"></ion-icon>&nbsp;Can Recycled</button>
-  <button ion-button style="width:100%"><ion-icon name="water"></ion-icon>&nbsp;Reusable Bottle</button>
-  <button ion-button style="width:100%"><ion-icon name="car"></ion-icon>&nbsp;Carpooled</button>
-  <button ion-button style="width:100%; background-color:red"><ion-icon name="water"></ion-icon>&nbsp;Disposable Bottle</button>
+  <ion-grid>
+    
+    <ion-row style="align-content:center" class="ionrow">
+       <ion-col width-33><button ion-button full><ion-icon name="flask"></ion-icon>&nbsp;Recycle Item</button></ion-col>
+       <ion-col width-67><button ion-button full><ion-icon name="water"></ion-icon>&nbsp;Short Shower</button></ion-col>
+    </ion-row>
+    
+    <ion-row class="ionrow">
+      <ion-col width-33><button ion-button full><ion-icon name="car"></ion-icon>&nbsp;Carpooled</button></ion-col>
+      <ion-col width-33><button ion-button full><ion-icon name="sad"></ion-icon>&nbsp;Plastic Bottle</button></ion-col>
+   </ion-row>
+    
+  </ion-grid>
+
 </ion-content>

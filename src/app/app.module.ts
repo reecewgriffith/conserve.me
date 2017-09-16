@@ -10,6 +10,7 @@ import { HomePage } from '../pages/home/home';
 import { MainTabsPage } from '../pages/main-tabs/main-tabs';
 import { ChartsPage } from '../pages/charts/charts';
 import { SettingsPage } from '../pages/settings/settings';
+import { LoginPage } from '../pages/login/login';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SettingsPage } from '../pages/settings/settings';
     HomePage,
     MainTabsPage,
     ChartsPage,
-    SettingsPage
+    SettingsPage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import { SettingsPage } from '../pages/settings/settings';
     HomePage,
     MainTabsPage,
     ChartsPage,
-    SettingsPage
+    SettingsPage,
+    LoginPage
   ],
   providers: [
     StatusBar,
