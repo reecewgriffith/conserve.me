@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the ChartsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
-@IonicPage()
-@Component({
-  selector: 'page-charts',
-  templateUrl: 'charts.html',
-})
-export class ChartsPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ChartsPage');
-  }
-
-=======
 import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Chart } from 'chart.js';
@@ -120,8 +94,8 @@ export class ChartsPage {
 
             type: 'line',
             data: {
-                labels: ["JAN", "", "FEB", 
-                "", "MAR", "", "APR", 
+                labels: ["JAN", "", "FEB",
+                "", "MAR", "", "APR",
                 "", "MAY", "", "JUN",
                 "", "JUL", "", "AUG",],
                 datasets: [
@@ -144,13 +118,12 @@ export class ChartsPage {
                         pointHoverBorderWidth: 2,
                         pointRadius: 1,
                         pointHitRadius: 10,
-                        data: [0, 1000, 600, 1200, 1800, 2700, 8500, 
-                          8000, 12500, 40600, 50000, 78000, 104200, 
+                        data: [0, 1000, 600, 1200, 1800, 2700, 8500,
+                          8000, 12500, 40600, 50000, 78000, 104200,
                           185000, 204200],
                         spanGaps: false,
                     }
                 ]}
         });
     }
->>>>>>> refs/remotes/origin/master
 }
