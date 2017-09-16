@@ -1,15 +1,36 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
+
   <ion-navbar>
-    <ion-title>
-      
-        Home
-    </ion-title>
+    <ion-title style="text-align:center;">Home</ion-title>
   </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
-  <h2>Conserve.me</h2>
-  <p>
-    Welcome user
-  </p>
+<ion-content style="text-align:center">
+
+  <h2 style="text-align:center">Welcome to Conserve.me</h2>
+  <img style="text-align:center" src="../../assets/images/earth.gif">
+  <br>
+  <br>
+  <ion-grid align-center>
+    
+    <ion-row style="align-content:center" class="ionrow">
+       <ion-col width-33><button ion-button full (click)="presentAlert100pts()"><ion-icon name="flask"></ion-icon>&nbsp;Recycle Item</button></ion-col>
+       <ion-col width-67><button ion-button full (click)="presentAlert500pts()"><ion-icon name="water"></ion-icon>&nbsp;Short Shower</button></ion-col>
+    </ion-row>
+    
+    <ion-row class="ionrow">
+      <ion-col width-33><button ion-button full (click)="presentAlert1kpts()"><ion-icon name="car"></ion-icon>&nbsp;Carpooled</button></ion-col>
+      <ion-col width-33><button ion-button full (click)="presentAlert200ptsP()" style="background-color:red"><ion-icon name="sad"></ion-icon>&nbsp;Plastic Bottle</button></ion-col>
+   </ion-row>
+    
+  </ion-grid>
+
 </ion-content>
+
