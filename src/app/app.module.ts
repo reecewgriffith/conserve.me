@@ -12,6 +12,7 @@ import { ChartsPage } from '../pages/charts/charts';
 import { SettingsPage } from '../pages/settings/settings';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
+import { TutorialPage } from '../pages/tutorial/tutorial';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { RegisterPage } from '../pages/register/register';
     ChartsPage,
     SettingsPage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    TutorialPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { RegisterPage } from '../pages/register/register';
     ChartsPage,
     SettingsPage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    TutorialPage
   ],
   providers: [
     StatusBar,

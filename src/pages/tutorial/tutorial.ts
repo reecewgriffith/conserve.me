@@ -1,29 +1,30 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import { TutorialPage } from '../tutorial/tutorial';
+import { MainTabsPage } from '../main-tabs/main-tabs';
+
 /**
- * Generated class for the RegisterPage page.
+ * Generated class for the TutorialPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
 
 @Component({
-  selector: 'page-register',
-  templateUrl: 'register.html',
+  selector: 'page-tutorial',
+  templateUrl: 'tutorial.html',
 })
-export class RegisterPage {
+export class TutorialPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad RegisterPage');
+    console.log('ionViewDidLoad TutorialPage');
   }
 
-  segueToTut() {
-    this.navCtrl.push(TutorialPage);
+  segueToMTabs() {
+    this.navCtrl.setRoot(MainTabsPage);
   }
 
 }

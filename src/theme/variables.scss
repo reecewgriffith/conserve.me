@@ -49,8 +49,19 @@ $colors: (
   font-style: normal; 
 }
 
-h2 {
+ion-title, h1, h2 {
   font-family: "pacifico" !important;
+}
+
+@font-face {
+  font-family: "varela";
+  src: url("../assets/fonts/varela");
+  font-weight: normal;
+  font-style: normal; 
+}
+
+p {
+  font-family: "varela" !important;
 }
 
 // App iOS Variables

@@ -50,7 +50,7 @@ export class HomePage {
 
   presentAlert200ptsP() {
     let alert = this.alertCtrl.create({
-      title: 'Gained 200 Pollute Karma!',
+      title: 'Gained 200 Pollute Karma...',
       subTitle: 'We have one planet!',
       buttons: ['I\'ll do better next time.']
     });

@@ -1,0 +1,55 @@
+<!--
+  Generated template for the TutorialPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Getting Started</ion-title>
+    <ion-buttons end>
+        <button ion-button (click)="segueToMTabs()">
+            <ion-icon name="arrow-round-forward"></ion-icon>&nbsp;Skip
+        </button>
+        </ion-buttons>
+  </ion-navbar>
+  
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-slides>
+    <ion-slide>
+      <h1>Track</h1>
+      <img src="../../assets/images/analy.gif">
+      <p>
+        Easily monitor your wasteful habits, like taking long showers, 
+        feeding the landfill, or leaving the lights on in your home.
+      </p>
+      <p>
+        Our analytics will keep allow you to see trends in your habits, 
+        as well as your true effect on the environment and waste levels.
+      </p>
+    </ion-slide>
+    <ion-slide>
+      <h1>Grow</h1>
+      <img src="../../assets/images/recursive.gif">      
+      <p>
+        Our in app point system rewards you for "green" 
+        actions and adds to your global Karma score. 
+        Compare your scores with friends!
+      </p>
+    </ion-slide>
+    <ion-slide>
+      <h1>Conserve</h1>
+      <img src="../../assets/images/earth.gif">
+      <p>
+        Do all of this, and we're one step closer to becoming a greener, 
+        more sustainable world!
+      </p>
+      <button ion-button full round (click)="segueToMTabs()"><ion-icon name="thumbs-up"></ion-icon>&nbsp;Lets Go!</button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

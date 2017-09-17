@@ -65,7 +65,7 @@ export class ChartsPage {
 
             type: 'doughnut',
             data: {
-                labels: ["CO2", "Platic", "Paper", "Water", "Energy", "Food"],
+                labels: ["CO2", "Plastic", "Paper", "Water", "Energy", "Food"],
                 datasets: [{
                     label: 'Waste Distribution (%)',
                     data: [10, 19, 4, 25, 22, 20],
