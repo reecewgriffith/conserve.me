@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { MainTabsPage } from '../main-tabs/main-tabs';
+import { RegisterPage } from '../register/register';
 /**
  * Generated class for the LoginPage page.
  *
@@ -14,15 +15,25 @@ import { MainTabsPage } from '../main-tabs/main-tabs';
 })
 export class LoginPage {
 
+  splash = true;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LoginPage');
-  }
+    
+       setTimeout(() => {
+        this.splash = false;
+       }, 4000);
+    
+     }
 
   segueToMTabs() {
     this.navCtrl.push(MainTabsPage);
+  }
+
+  segueToReg() {
+    this.navCtrl.push(RegisterPage);
   }
 
 }
