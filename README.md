@@ -5,7 +5,7 @@
 
 ## Team
 - @amrojas
-- @cjmoncaliona
+- @cjmoncaliano
 - @reecewgriffith
 
 ## How to use Ionic
