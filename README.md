@@ -1,5 +1,8 @@
 # Conserve.me
 
+## Made for a Hackathon, placing in Top 10
+https://devpost.com/software/conserve-me
+
 ## Team
 - Reece W. Griffith 
   - Front-end 
@@ -10,7 +13,6 @@
 - Claudia Moncaliano 
   - Integration 
   - https://github.com/cjmoncaliano
-https://devpost.com/software/conserve-me
 
 ## Inspiration
 Two of our developers are from Southern California, where a major drought has been putting strains on water supplies since 2014. Strict regulations were put on water usage. Citizens were even fined hundreds of dollars for washing their cars on unauthorized days. Water bills increased dramatically. Everyone was making efforts to conserve water to avoid the fees but also to protect the well-being of their state. Our team believes protecting the environment should be fun and easy. It should also be trackable, so that individuals can make a more precise and calculated effort to improve the state of the environment. Live a more sustainable life with Conserve.me. Track your waste and conservation efforts and challenge your friends to see who can gain the most green karma. Set goals for shorter showers, less plastic bottle usage, carpooling, and more! Improve the your world.
