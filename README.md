@@ -1,9 +1,15 @@
 # Conserve.me
 
 ## Team
-- Reece W. Griffith Front-end https://github.com/reecewgriffith
-- Andrew Rojas Back-end https://github.com/amrojas
-- Claudia Moncaliano Integration https://github.com/cjmoncaliano
+- Reece W. Griffith 
+  - Front-end 
+  - https://github.com/reecewgriffith
+- Andrew Rojas 
+  - Back-end 
+  - https://github.com/amrojas
+- Claudia Moncaliano 
+  - Integration 
+  - https://github.com/cjmoncaliano
 https://devpost.com/software/conserve-me
 
 ## Inspiration
